@@ -1,5 +1,4 @@
-
-# Fundamentos de Problemas Computacionais
+# 🥕 Fundamentos de Problemas Computacionais
 
 BSI - UFRPE
   
@@ -24,29 +23,48 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 
 <details>
 
-<summary>Conteúdo da disciplina</summary>
+<summary>Roadmap da disciplina</summary>
   
 
 ## 1. Introdução aos algoritmos e problemas computacionais.
-
+  
+  <details>
+    <summary>Conteúdo 🍳</summary>
+  
+  </details>
   
 
 ## 2. Análise de algoritmos: notação O e análise assintótica.
 
+  <details>
+    <summary>Conteúdo 🍳</summary>
   
+  </details>
 
 ## 3. Recursão. Implementação de um programa recursivo.
 
+  <details>
+    <summary>Conteúdo 🍳</summary>
   
+  </details>
 
 ## 4. Busca linear e binária.
+    
+  <details>
+    <summary>Conteúdo 🍳</summary>
 
 * Implementação de um mecanismo de busca sequencial e binária.
+  
+
+  </details>
 
   
 
 ## 5. Estruturas de dados básicas: implementação utilizando
 
+  <details>
+    <summary>Conteúdo 🍳</summary>
+  
 * #### Matrizes
 
 * #### Listas
@@ -59,10 +77,16 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 * ### Busca em tabelas Hash
 
 * Alocação estática e dinâmica de memória.
-
+  
 #### 📑 referências:
  - [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
 - [x] [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell (bigocheatsheet.com)](https://www.bigocheatsheet.com/)
+
+
+  </details>
+
+
+
 
   
 
@@ -71,6 +95,9 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 > * Implementação.
 > * Estratégias para ordenação em memória secundária.
 
+  <details>
+    <summary>Conteúdo 🍳</summary>
+  
 #### Buble Sort
 
 #### Select Sort
@@ -81,11 +108,19 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 #### Merge Sort
 
 #### Quick Sort
+  
+
+  
+  </details>
+
 
 
 ## 7. Noções de orientação a objetos.
 
+  <details>
+    <summary>Conteúdo 🍳</summary>
   
+  </details>  
   
 
 </details>
