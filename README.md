@@ -1,12 +1,10 @@
-# Fundamentals of Computational Problems
 
-  
+# Fundamentos de Problemas Computacionais
 
 BSI - UFRPE
-
   
 
-Documents on [google drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7OKIoQvzubsmfdnE6z5wL?usp=sharing)
+Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7OKIoQvzubsmfdnE6z5wL?usp=sharing)
     
 <details>
   <summary>Ementa</summary>
@@ -49,28 +47,41 @@ Documents on [google drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7
 
 ## 5. Estruturas de dados básicas: implementação utilizando
 
-  
+* #### Matrizes
 
-* matrizes,
+* #### Listas
 
-* listas,
+* #### Pilhas
 
-* pilhas e
+* #### tabelas Hash
 
-* tabelas hash.
 
-* Busca em tabelas hash.
+* ### Busca em tabelas Hash
 
 * Alocação estática e dinâmica de memória.
+
+#### 📑 referências:
+ - [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
+- [x] [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell (bigocheatsheet.com)](https://www.bigocheatsheet.com/)
 
   
 
 ## 6. Algoritmos de ordenação.
 
-* Implementação.
-* Estratégias para ordenação em memória secundária.
+> * Implementação.
+> * Estratégias para ordenação em memória secundária.
 
-  
+#### Buble Sort
+
+#### Select Sort
+
+#### Insertion Sort
+> "Pega alguém da parte desordenada e vai inserindo na parte ordenada"
+
+#### Merge Sort
+
+#### Quick Sort
+
 
 ## 7. Noções de orientação a objetos.
 
@@ -78,4 +89,4 @@ Documents on [google drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7
   
 
 </details>
->>>>>>> af99585b92fb3eaac8eef3e2635b3ddf3f396432
+
