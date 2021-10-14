@@ -1,9 +1,6 @@
 # Fundamentals of Computational Problems
 
-  
-
 BSI - UFRPE
-
   
 
 Documents on [google drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7OKIoQvzubsmfdnE6z5wL?usp=sharing)
@@ -78,4 +75,4 @@ Documents on [google drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7
   
 
 </details>
->>>>>>> af99585b92fb3eaac8eef3e2635b3ddf3f396432
+
