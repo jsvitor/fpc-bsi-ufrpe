@@ -29,6 +29,7 @@ class HashTableUsingOpenAddress():
     self.containers_number = containers_n;
     self.container_size = container_s;
     
+    # create containers shape
     for container in range(self.containers_number):
       # add container to hash table
       self.hash_table.append( [ None for i in range( self.container_size ) ] );
@@ -52,14 +53,15 @@ class HashTableUsingOpenAddress():
     while iterator < self.container_size:
       element = self.hash_table[ containerIndex ][ iterator ]
       if element == None:
-        iterator += 1
+        return iterator + 1
       elif element == search_element:
-        return iterator + 1;
+        return iterator + 1
       else:
         iterator += 1
-  
+    
+    # 2 1 1 3 3 1 3
 
-    return iterator;
+    return iterator
 
 
 def main():
@@ -76,7 +78,7 @@ def main():
   
 
    # fatiamento da lista referente aos valores que serão inseridos na tabela hash
-  for i in entry[ 0 : insert_n_elements - 1 ]:
+  for i in entry[ 0 : insert_n_elements ]:
     obj.insert_key_element(i)
 
   # deleta da lista de entrada os valores que foram inseridos
@@ -86,13 +88,16 @@ def main():
   # percorre o restante da lista passando os elementos a serem pesquisados
   comparisons_number = ''
   for element in entry:
-    comparisons_number += str( obj.searchComplexityCounter( element ) ) + ' ';
-  
-  # print('search 23', obj.searchComplexityCounter( 23 ))
-  print(comparisons_number)
+    if entry.index(element) != (len(entry) - 1 ):
+      comparisons_number += str( obj.searchComplexityCounter( element ) ) + ' '
+    else:
+      comparisons_number += str( obj.searchComplexityCounter( element ))
+
+  # print('search 25', obj.searchComplexityCounter( 25 ))
   
   # print(obj.hash_table)
   
+  print(comparisons_number)
 
 
 if __name__ == '__main__':
