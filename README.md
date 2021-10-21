@@ -121,6 +121,10 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
   <details>
     <summary>Conteúdo 🍳</summary>
   
+[Classes | Python 3 documentação](https://docs.python.org/pt-br/3/tutorial/classes.html)
+    
+[Paradigmas de programação | Programação Funcional](https://blog.nubank.com.br/programacao-funcional-o-que-e-relacao-nubank/)
+    
   </details>  
   
 
