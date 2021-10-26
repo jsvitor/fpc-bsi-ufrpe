@@ -72,8 +72,9 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 * Alocação estática e dinâmica de memória.
   
 #### 📑 referências:
- - [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
+- [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
 - [x] [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell (bigocheatsheet.com)](https://www.bigocheatsheet.com/)
+- [x] [Alocação estática e dinâmica | Python](https://www.ime.usp.br/~mms/mac1222s2020/7%20-%20PDA%20-%20Python%20-%20alocacao%20dinamica%20-%20listas%20ligadas.pdf) 
 
 
   </details>
