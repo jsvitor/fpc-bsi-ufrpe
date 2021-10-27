@@ -1,16 +1,12 @@
-# 🥕 Fundamentos de Problemas Computacionais
+# 🥕 Fundamentos de Problemas Computacionais (FPC)
 
-
-BSI - UFRPE
+> Tipos de linguagens de programação. Análise de algoritmos: notação O e análise assintótica. Recursão. Busca linear e binária. Algoritmos de ordenação. Alocação estática e dinâmica de memória. Estruturas de dados básicas: matrizes, listas, pilhas e tabelas hash. Noções de orientação a objetos.
   
 
 Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com/drive/folders/1ymjpuwY9PuM7OKIoQvzubsmfdnE6z5wL?usp=sharing)
     
 <details>
-  <summary>Ementa</summary>
-
-
-> Tipos de linguagens de programação. Análise de algoritmos: notação O e análise assintótica. Recursão. Busca linear e binária. Algoritmos de ordenação. Alocação estática e dinâmica de memória. Estruturas de dados básicas: matrizes, listas, pilhas e tabelas hash. Noções de orientação a objetos.
+  <summary>Objetivos</summary>
 
 > ### Objetivo geral
 > Introduzir e aplicar os conceitos de algoritmos, abstração de dados e estruturas de dados clássicas.
@@ -21,13 +17,9 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
   
 </details>
 
-
-<details>
-
-<summary>Roadmap da disciplina</summary>
   
 
-## 1. Introdução aos algoritmos e problemas computacionais.
+## 1 → Introdução aos algoritmos e problemas computacionais.
   
   <details>
     <summary>Conteúdo 🍳</summary>
@@ -35,21 +27,21 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
   </details>
   
 
-## 2. Análise de algoritmos: notação O e análise assintótica.
+## 2 → Análise de algoritmos: notação O e análise assintótica.
 
   <details>
     <summary>Conteúdo 🍳</summary>
   
   </details>
 
-## 3. Recursão. Implementação de um programa recursivo.
+## 3 → Recursão. Implementação de um programa recursivo.
 
   <details>
     <summary>Conteúdo 🍳</summary>
   
   </details>
 
-## 4. Busca linear e binária.
+## 4 → Busca linear e binária.
     
   <details>
     <summary>Conteúdo 🍳</summary>
@@ -61,7 +53,7 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 
   
 
-## 5. Estruturas de dados básicas: implementação utilizando
+## 5 → Estruturas de dados básicas: implementação utilizando
 
   <details>
     <summary>Conteúdo 🍳</summary>
@@ -80,8 +72,9 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 * Alocação estática e dinâmica de memória.
   
 #### 📑 referências:
- - [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
+- [x] [Data structures cheat sheet, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
 - [x] [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell (bigocheatsheet.com)](https://www.bigocheatsheet.com/)
+- [x] [Alocação estática e dinâmica | Python](https://www.ime.usp.br/~mms/mac1222s2020/7%20-%20PDA%20-%20Python%20-%20alocacao%20dinamica%20-%20listas%20ligadas.pdf) 
 
 
   </details>
@@ -91,7 +84,7 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 
   
 
-## 6. Algoritmos de ordenação.
+## 6 → Algoritmos de ordenação.
 
 > * Implementação.
 > * Estratégias para ordenação em memória secundária.
@@ -116,7 +109,7 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
 
 
 
-## 7. Noções de orientação a objetos.
+## 7 → Noções de orientação a objetos.
 
   <details>
     <summary>Conteúdo 🍳</summary>
@@ -127,6 +120,3 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
     
   </details>  
   
-
-</details>
-
