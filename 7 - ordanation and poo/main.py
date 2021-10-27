@@ -79,6 +79,13 @@ class Biblioteca:
         else:
             mensagem = "O livro mais alugado e: %s (%d alugueis)"%(nome, maior)
             return (ok, mensagem)
+    
+    def livrosOrdenadosPeloNome(self, array):
+        # array → [{cod, nome, autor}, {cod, nome, autor}, {cod, nome, autor},]
+        
+        ### PROCESSO DE ORDENAÇÃO DO ARRAY DE OBJETOS DO TIPO Livro PELO NOME
+
+        return arrayOrdenado
 
 
 
