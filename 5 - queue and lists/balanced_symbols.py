@@ -37,11 +37,11 @@ def parChecker(symbols):
         if symbol == '(' or symbol == '[' or symbol == '{':
             s.push(symbol)
         else:
-            if (not s.isEmpty()) and symbol == ')' and s.stack()[-1] == '(':
+            if (not s.isEmpty()) and symbol == ')' and s.peek() == '(':
                 s.pop()
-            elif (not s.isEmpty()) and symbol == ']' and s.stack()[-1] == '[':
+            elif (not s.isEmpty()) and symbol == ']' and s.peek() == '[':
                 s.pop()
-            elif (not s.isEmpty()) and symbol == '}' and s.stack()[-1] == '{':
+            elif (not s.isEmpty()) and symbol == '}' and s.peek() == '{':
                 s.pop()
             elif symbol == ')' or symbol == ']' or symbol == '}':
                 s.push(symbol)
