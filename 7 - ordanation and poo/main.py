@@ -81,11 +81,18 @@ class Biblioteca:
             return (ok, mensagem)
     
     def livrosOrdenadosPeloNome(self, array):
-        # array → [{cod, nome, autor}, {cod, nome, autor}, {cod, nome, autor},]
+        # array → [{cod, nome, autor}, {cod, nome, autor}, {cod, nome, autor}]
         
+        n = len(array)
         ### PROCESSO DE ORDENAÇÃO DO ARRAY DE OBJETOS DO TIPO Livro PELO NOME
+        for l in range(n-1):
+           for i in range(n-1):
+                if array[i].nome > array[i+1].nome:
+                    # troca de elementos nas posições i e i+1
+                    array[i], array[i+1] = array[i+1], array[i]
 
-        return arrayOrdenado
+        return array
+
 
 
 
@@ -98,9 +105,13 @@ def main():
         423 156 234
     """
 
+    #   a) criar um programa principal para tratar as entradas e saídas do programa;
+
     entry = input().split(',')
     books = entry[1:] # recorta apenas os livros
 
+    #   b) alterar a classe Biblioteca para adicionar o novo método livrosOrdenadosPeloNome
+    #   c) no programa principal, criar objetos das classes Livro e Biblioteca usando o código fonte fornecido;
     # criando um objeto do tipo Biblioteca:
     library = Biblioteca()
 
@@ -114,9 +125,55 @@ def main():
         library.inserir(book)
         del(books[0:3])
         count += 1
-
     
 
+    # d) no programa principal, realizar a ordenação das listas de livros alugados e disponiveis
+    # separadamente;
+    library.disponiveis = library.livrosOrdenadosPeloNome(library.disponiveis)
+
+    library.alugados = library.livrosOrdenadosPeloNome(library.alugados)
+
+    # e) no programa principal, mesclar os resultados das duas listas ordenadas;
+    """
+    lista = []
+    left = library.disponiveis
+    right = library.alugados
+    top_left, top_right = 0, 0
+
+    for k in range(len(left)+len(right)): """
+    def merge(lista, inicio, meio, fim):
+        left = lista[inicio:meio]
+        right = lista[meio:fim]
+        top_left, top_right = 0, 0
+        for k in range(inicio, fim):
+            if top_left >= len(left):
+                lista[k] = right[top_right]
+                top_right += 1
+            elif top_right >= len(right):
+                lista[k] = left[top_left]
+                top_left += 1
+            # comparando os nomes
+            elif left[top_left].nome < right[top_right].nome:
+                lista[k] = left[top_left]
+                top_left += 1
+            else:
+                lista[k] = right[top_right]
+                top_right += 1
+    
+    lista = library.disponiveis + library.alugados
+    merge(lista, 0, len(library.disponiveis), len(lista))
+    # print([x.codigo for x in lista ])
+
+
+    # f) exibir a saída conforme formato definido.
+    cod = ''
+    for livro in lista:
+        if lista.index(livro) != (len(lista) - 1 ):
+            cod += str( livro.codigo ) + ' '
+        else:
+            cod += str( livro.codigo )
+
+    print(cod)
 
 if __name__ == '__main__':
   main()
