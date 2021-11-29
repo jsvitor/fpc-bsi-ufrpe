@@ -120,3 +120,7 @@ Documentos usados nas aulas e atividades [Google Drive](https://drive.google.com
     
   </details>  
   
+
+1ª VA → 10,0
+2ª VA → 9,0
+Média: 9,5 (APROVADO)
